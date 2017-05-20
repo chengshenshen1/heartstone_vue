@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b061eee6-a86f-4b88-bcf5-e59ec58f2e36" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myProject/src/img/mage_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myProject/src/img/paladinMad.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Druid.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Druid.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Hunter.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Hunter.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Mega.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Mega.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Paladin.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Paladin.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Priest.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Priest.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Rogue.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Rogue.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Shaman.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Shaman.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Walock.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Walock.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/src/components/Warrior.vue" afterPath="$PROJECT_DIR$/myProject/src/components/Warrior.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,13 +30,13 @@
       <file leaf-file-name="Druid.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myProject/src/components/Druid.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="1520">
+              <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
               <folding>
-                <element signature="e#2115#2515#0" expanded="false" />
+                <element signature="e#2125#2525#0" expanded="false" />
                 <element signature="n#style#0;n#!!top" expanded="false" />
-                <element signature="e#4426#4556#0" expanded="false" />
-                <element signature="e#4583#4710#0" expanded="false" />
+                <element signature="e#4528#4658#0" expanded="false" />
+                <element signature="e#4685#4812#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -366,15 +355,15 @@
       <workItem from="1494888742735" duration="6051000" />
       <workItem from="1494895271682" duration="15132000" />
       <workItem from="1495091357938" duration="85000" />
-      <workItem from="1495091469511" duration="7914000" />
+      <workItem from="1495091469511" duration="8477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41450000" />
+    <option name="totallyTimeSpent" value="42013000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="737" extended-state="0" />
+    <frame x="0" y="24" width="1366" height="737" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24571854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -413,10 +402,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2115#2515#0" expanded="false" />
+            <element signature="e#2125#2525#0" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="e#4426#4556#0" expanded="false" />
-            <element signature="e#4583#4710#0" expanded="false" />
+            <element signature="e#4528#4658#0" expanded="false" />
+            <element signature="e#4685#4812#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -426,10 +415,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2115#2515#0" expanded="false" />
+            <element signature="e#2125#2525#0" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="e#4426#4556#0" expanded="false" />
-            <element signature="e#4583#4710#0" expanded="false" />
+            <element signature="e#4528#4658#0" expanded="false" />
+            <element signature="e#4685#4812#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -439,10 +428,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2115#2515#0" expanded="false" />
+            <element signature="e#2125#2525#0" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="e#4426#4556#0" expanded="false" />
-            <element signature="e#4583#4710#0" expanded="false" />
+            <element signature="e#4528#4658#0" expanded="false" />
+            <element signature="e#4685#4812#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,10 +441,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2115#2515#0" expanded="false" />
+            <element signature="e#2125#2525#0" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="e#4426#4556#0" expanded="false" />
-            <element signature="e#4583#4710#0" expanded="false" />
+            <element signature="e#4528#4658#0" expanded="false" />
+            <element signature="e#4685#4812#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -465,10 +454,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2115#2515#0" expanded="false" />
+            <element signature="e#2125#2525#0" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="e#4426#4556#0" expanded="false" />
-            <element signature="e#4583#4710#0" expanded="false" />
+            <element signature="e#4528#4658#0" expanded="false" />
+            <element signature="e#4685#4812#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,13 +652,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myProject/src/components/Druid.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="1520">
+          <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
           <folding>
-            <element signature="e#2115#2515#0" expanded="false" />
+            <element signature="e#2125#2525#0" expanded="false" />
             <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="e#4426#4556#0" expanded="false" />
-            <element signature="e#4583#4710#0" expanded="false" />
+            <element signature="e#4528#4658#0" expanded="false" />
+            <element signature="e#4685#4812#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -69,7 +69,7 @@
       this.getUrl()
     },
     methods: {
-      getUrl () {
+      getUrl () { // 全部卡牌数据渲染
         this.$http.get('../static/cards.json').then((res) => {
           let by = function (name) {
             return function (o, p) {
@@ -94,28 +94,28 @@
           }
         })
       },
-      getCard ($index) {
+      getCard ($index) {  // 添加卡牌数据到右边卡牌列表
         this.pickedCard.push({'img': this.cardUrl[$index], 'name': this.cardName[$index]})
       },
-      deleteCard ($index) {
+      deleteCard ($index) { // 删除卡牌
         this.pickedCard.pop(this.pickedCard[$index])
       },
-      listShow () {
+      listShow () { // 职业卡牌选项分类列表显示
         this.isList = !this.isList
         this.isRarity = false
         this.isCost = false
       },
-      rarityListShow () {
+      rarityListShow () { // 稀有度卡牌选项分类列表显示
         this.isRarity = !this.isRarity
         this.isList = false
         this.isCost = false
       },
-      costList () {
+      costList () { // 费用分类列表选项列表显示
         this.isCost = !this.isCost
         this.isList = false
         this.isRarity = false
       },
-      allMiss () {
+      allMiss () { // 点击任意处卡牌选择列表消失
         this.isCost = false
         this.isList = false
         this.isRarity = false
