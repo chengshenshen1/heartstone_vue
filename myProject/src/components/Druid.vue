@@ -2,26 +2,26 @@
 <div class="druid">
   <div class="picture">
     <div class="select">
-      <div class="cardProfession">职业卡牌</div>
-      <div class="cardRarity">稀有度</div>
-      <div class="cardCost">费用</div>
+      <div class="cardProfession" @click="listShow()">职业卡牌</div>
+      <div class="cardRarity" @click="rarityListShow()">稀有度</div>
+      <div class="cardCost" @click="costList()">费用</div>
     </div>
-    <ul class="cardList">
+    <ul class="cardList" @click="allMiss()">
       <li v-for="(val,$index) in cardUrl"><img :src="val" alt="" @click="getCard($index)"></li>
     </ul>
-    <div class="list" v-show="false">
+    <div class="list" v-show="isList">
       <div class="allCard">全部</div>
       <div class="neutrality">中立</div>
       <div class="self">德鲁伊</div>
     </div>
-    <div class="rarityList" v-show="false">
+    <div class="rarityList" v-show="isRarity">
       <div class="allCard">全部</div>
       <div class="common">普通</div>
       <div class="rare">稀有</div>
       <div class="epic">史诗</div>
       <div class="legend">传说</div>
     </div>
-    <div class="costList" v-show="false">
+    <div class="costList" v-show="isCost">
       <div class="allCard">全部</div>
       <div class="zero">0费</div>
       <div class="one">1费</div>
@@ -33,13 +33,17 @@
       <div class="sevenPlus">7费+</div>
     </div>
   </div>
-  <div class="picked">
+  <div class="picked" @click="allMiss()">
     <div class="druidImag">
       <img src="../img/druid_s.png" alt="">
     </div>
      <ul>
        <li v-for="(item,$index) in pickedCard" v-bind:style="{backgroundImage:'url(' + item.img + ')'}" @click="deleteCard($index)">{{item.name}}</li>
      </ul>
+    <div class="cardNum">
+      <div class="num">15/30</div>
+      <div class="reNum">重置</div>
+    </div>
     <div class="complete">
       <img src="../img/complete.png" alt="">
     </div>
@@ -54,7 +58,11 @@
       return {
         cardUrl: [],
         pickedCard: [],
-        cardName: []
+        cardName: [],
+        isList: false,
+        isRarity: false,
+        isCost: false
+
       }
     },
     mounted: function () {
@@ -77,7 +85,7 @@
           }
           let temp = res.data.sort(by('cost'))
           for (let i = 0; i < temp.length; i++) {
-            if (temp[i].playerClass === ('NEUTRAL' || 'Druid')) {
+            if (temp[i].playerClass === 'NEUTRAL' || temp[i].playerClass === 'DRUID') {
               let sortedCard = temp.sort(by(temp[i].cost))
               this.cardUrl.push(sortedCard[i].img)
               localStorage.cardUrl = this.cardUrl
@@ -91,6 +99,26 @@
       },
       deleteCard ($index) {
         this.pickedCard.pop(this.pickedCard[$index])
+      },
+      listShow () {
+        this.isList = !this.isList
+        this.isRarity = false
+        this.isCost = false
+      },
+      rarityListShow () {
+        this.isRarity = !this.isRarity
+        this.isList = false
+        this.isCost = false
+      },
+      costList () {
+        this.isCost = !this.isCost
+        this.isList = false
+        this.isRarity = false
+      },
+      allMiss () {
+        this.isCost = false
+        this.isList = false
+        this.isRarity = false
       }
     }
   }
@@ -112,6 +140,7 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     border-bottom: 1px solid sandybrown;
+    margin-bottom: 10px;
   }
   .picture .select div{
     width: 33.33%;
@@ -197,5 +226,21 @@
   }
   .picked .complete img{
     width: 235px;
+  }
+  .picked .cardNum{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid sandybrown;
+    margin-bottom: 5px;
+  }
+  .picked .cardNum div{
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    box-sizing: border-box;
+  }
+  .picked .cardNum .num{
+    border-right: 1px solid sandybrown;
   }
 </style>
